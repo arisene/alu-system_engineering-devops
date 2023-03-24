@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #configuring so that we can connect to the serve without password
-Host *
+Host <pop-os>
   IdentityFile ~/.ssh/school
   PasswordAuthentication no
 
